@@ -1,0 +1,29 @@
+# Binary
+your-ip
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+vendor/
+
+# Docker
+docker-compose.override.yml
+
+# Air (live reload)
+tmp/
