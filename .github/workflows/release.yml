@@ -45,7 +45,7 @@ jobs:
       - name: Build Docker image
         uses: docker/build-push-action@v6
         with:
-          context: server
+          context: .
           push: true
           tags: ghcr.io/leomotors/your-ip:${{ github.ref_name }},ghcr.io/leomotors/your-ip:latest
           platforms: linux/amd64,linux/arm64
